@@ -1,0 +1,260 @@
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.advant-cal{
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+    z-index: 0;
+}
+
+.sub{
+    position: absolute;
+    pointer-events: none;
+    transition: opacity 0.1s ease-in;;
+}
+
+
+.window-container:hover .sub{
+    opacity: 1;
+}
+
+.window-container:hover .main{
+    opacity: 0;
+}
+
+#close-one{
+    position: absolute;
+    top: 20.1%;
+    left: 25.2%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-one{
+    position: absolute;
+    top: 19.91%;
+    left: 25.2%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+}
+/* ------ */
+#close-two{
+    position: absolute;
+    top: 20.1%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-two{
+    position: absolute;
+    top: 19.91%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-three{
+    position: absolute;
+    top: 20.1%;
+    left: 72.8%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-three{
+    position: absolute;
+    top: 19.91%;
+    left: 72.8%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-four{
+    position: absolute;
+    top: 36.2%;
+    left: 24.6%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-four{
+    position: absolute;
+    top: 36%;
+    left: 24.6%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-five{
+    position: absolute;
+    top: 36.2%;
+    left: 48.5%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-five{
+    position: absolute;
+    top: 36%;
+    left: 48.5%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-six{
+    position: absolute;
+    top: 36.2%;
+    left: 72.3%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-six{
+    position: absolute;
+    top: 36%;
+    left: 72.3%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-seven{
+    position: absolute;
+    top: 52.3%;
+    left: 24.2%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-seven{
+    position: absolute;
+    top: 52.1%;
+    left: 24.2%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-eight{
+    position: absolute;
+    top: 52.3%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-eight{
+    position: absolute;
+    top: 52.1%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-nine{
+    position: absolute;
+    top: 52.3%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-nine{
+    position: absolute;
+    top: 52.1%;
+    left: 71.9%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-ten{
+    position: absolute;
+    top: 68.4%;
+    left: 24.3%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-ten{
+    position: absolute;
+    top: 68.2%;
+    left: 24.3%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-eleven{
+    position: absolute;
+    top: 68.4%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-eleven{
+    position: absolute;
+    top: 68.2%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+/* ------ */
+#close-twelve{
+    position: absolute;
+    top: 68.31%;
+    left: 71.9%;
+    transform: translate(-50%,-50%);
+    width: 21.9%;
+    height: auto;
+}
+
+#open-twelve{
+    position: absolute;
+    top: 68.2%;
+    left: 71.9%;
+    transform: translate(-50%,-50%);
+    width: 21.1%;
+    height: auto;
+
+}
+
