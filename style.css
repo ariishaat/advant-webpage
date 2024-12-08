@@ -3,6 +3,7 @@
     width: 100%;
     max-width: 600px;
     margin: 1rem auto;
+
 }
 
 .advant-cal{
@@ -10,10 +11,15 @@
     height: auto;
 }
 
+.window-container img {
+    width: 100%;
+    height: auto;
+}
+
 .main {
     opacity: 1;
     transition: opacity 0.1s ease-in;
-    z-index: 0;
+    z-index: 1;
 }
 
 .sub{
@@ -258,3 +264,30 @@
 
 }
 
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup-content{
+    position: relative;
+    padding: 20px;
+    z-index: 10000;
+    
+}
+.popup-image{
+    display: none;
+    z-index: 1000;
+    max-width: 100%;
+    max-height: 70%;
+    width: 800px;
+    height: auto;
+}
